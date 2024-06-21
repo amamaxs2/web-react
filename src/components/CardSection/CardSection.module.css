@@ -16,3 +16,10 @@
 .p {
   margin-bottom: 16px;
 }
+
+.section img {
+  width: 150px;
+  height: 150px;
+
+  cursor: pointer;
+}
