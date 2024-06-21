@@ -15,7 +15,7 @@ export default function Evolucoes() {
         }).then((data) => {
             setmaringa(data)
         })
-    },[])
+    },[name])
 
     const imagem = maringa?.sprites.front_default
     return (
